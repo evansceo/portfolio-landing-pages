@@ -4,10 +4,21 @@ body{
 }
 h1{
     text-align: center;
-    color: white;
+    color: rgb(31, 31, 72);
+}
+img{
+    border-radius: 50%;
+    width:400px;
+    margin: 30px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 h2{
-    color: rgb(31, 31, 72)
+    color: rgb(31, 31, 72);
 }
 .projects, .about, .education, 
 .experience, .interests, .hobbies, 
@@ -17,8 +28,15 @@ h2{
 
 }
 .h2-head{
-    
-    width: 300px;
+    width: 30%;
     border: 0px solid white;
     padding: 10px;
+    float: left;
+}
+.h2-body{
+    width: 70%;
+    border: 0px solid white;
+}
+span{
+    color: white;
 }
