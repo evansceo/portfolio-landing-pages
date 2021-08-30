@@ -22,7 +22,7 @@ h2{
 }
 .projects, .about, .education, 
 .experience, .interests, .hobbies, 
-.skills{
+.skills, .contacts{
     display: flex;
     flex-direction: row;
 
